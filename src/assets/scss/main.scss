@@ -1,0 +1,42 @@
+@import 'utils';
+@import 'card';
+@import 'description';
+@import 'form';
+@import 'input';
+@import 'title';
+@import 'tags';
+
+:root,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    display: flex;
+}
+
+.blue {
+    background-color: rgb(17, 22, 63);
+    color: #fff;
+}
+
+.header {
+    border-bottom: $border;
+
+    &__content {
+        // max-width: 80%;
+        margin: 0 auto;
+        padding: 2rem 5rem;
+
+        p {
+            font-size: 13px;
+            padding-top: 8px;
+        }
+    }
+}
+
+.tag {
+    width: 30%;
+}
