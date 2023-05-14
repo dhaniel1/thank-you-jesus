@@ -12,7 +12,11 @@ const Description = () => {
         </div>
         <div className="description__content--body">
           <Form className="description__form">
-            <Input className="description__input" label="Enter your name" />
+            <Input
+              type="text"
+              className="description__input"
+              label="Enter your name"
+            />
             <Button>Next Step</Button>
           </Form>
         </div>

@@ -1,0 +1,14 @@
+.header {
+    border-bottom: $border;
+
+    &__content {
+        // max-width: 80%;
+        margin: 0 auto;
+        padding: 2rem 5rem;
+
+        p {
+            font-size: 13px;
+            padding-top: 8px;
+        }
+    }
+}
