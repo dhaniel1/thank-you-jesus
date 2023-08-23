@@ -1,4 +1,3 @@
-import React from "react";
 import Tags from "./tags";
 import Description from "./description";
 import Title from "./title";
@@ -11,6 +10,7 @@ const Body = () => {
         <Title>
           {tagData.map((data) => (
             <Tags
+              key={data.header}
               heading={data.header}
               description={data.description}
               img={data.img}

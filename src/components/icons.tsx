@@ -8,11 +8,7 @@ interface Iprop
 
 const Icons = (props: Iprop) => {
   const { alt, ...restProps } = props;
-  return (
-    <img alt="" {...restProps}>
-      Icons
-    </img>
-  );
+  return <img alt={alt} {...restProps} />;
 };
 
 export default Icons;
